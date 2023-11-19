@@ -42,7 +42,7 @@ public class YandexDiskApplication implements CommandLineRunner {
         };
 
         Timer timer = new Timer();
-        long delay = (1000 * 20);
+        long delay = (1000 * 60 * 60 * 3);
         timer.schedule(task, 0, delay);
 
     }
